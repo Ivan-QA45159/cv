@@ -1,4 +1,4 @@
-body {
+        body {
   font-family: "Helvetica";
   background-image: linear-gradient(to bottom, #cddc39, #8bc34a, #cddc39);
   color: #000000;
@@ -80,10 +80,15 @@ body {
   border-bottom: none;
 }
 
-.linsk__link,
-.links__link:visited {
-  text-decoration: none;
-  color: #cb782f;
+.links__link,
+.links__link a {
+  color: #cb782f; /* Основной цвет ссылок */
+  text-decoration: none; /* Убираем подчёркивание */
+}
+
+.links__link a:hover {
+  color: #1174ee; /* Цвет ссылки при наведении */
+  text-decoration: underline; /* Добавляем подчёркивание при наведении */
 }
 
 .links__title {
